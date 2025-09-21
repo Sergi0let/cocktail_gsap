@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 //! register plugins in App.jsx for used globally
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <div className="">
       <Navbar />
+      <Hero />
     </div>
   );
 };
